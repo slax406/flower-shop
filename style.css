@@ -11,16 +11,32 @@
    border-radius: 5px;
    border: 0;
    color: #fff;
-   font-size: 18px;
-   font-weight: 700;
+   font-size: 20px;
+   font-weight: 500;
    padding: 10px 30px;
 
+}
+
+.section-title{
+   color: #272727;
+   text-align: center;
+   font-size: 3.4em;
+   font-weight: 700;
+   
+}
+
+.section-description{
+   color: #585858;
+   text-align: center;
+   font-size: 18px;
+   
+   
 }
 
 
 /* nav style */
 nav{
-   background-color: #d6c4c4;
+   background-color:  #f0e2e2 ;
    border: 0;
 }
 
@@ -54,7 +70,7 @@ nav a{
 /* Header */
 
 .header{
-   background-color: #e6d9dc;
+   background-color: #FCEEF1 ;
 }
 
 .banner{
@@ -75,18 +91,73 @@ nav a{
 
 .banner-title{
    color: #272727;
-   font-size: 85px;
+   font-size: 80px;
    font-weight: 700;
    margin-bottom: 32px;
 }
 
 .banner-description{
-   margin-bottom: 32px;
    color: #585858;
+   font-size: 18px;
+   margin-bottom: 32px;
+}
+
+.banner .banner-description{
+   display: inline-block;
+}
+
+
+/* about section */
+
+.about{
+   padding: 1.2% 0;
+   text-align: center;   
+   margin: 150px 0;  
+
 }
 
 
 
 /* main section */
 
+main{
+   width: 1140px;
+   margin: 0 auto ;
+}
 
+
+.flower-one{
+   background-color: #F2DEE7;
+   width: 464px;
+   height: 428px;
+   margin-right: 20px;
+   /* border-radius: 50% 50% 0 0; */
+   border-radius: 50% 50% 0 0;
+   max-width: 100%;
+   text-align: center;
+}
+
+.flower-two{
+   background-color: #D9EFF1;
+   width: 464px;
+   height: 428px;
+   margin-right: 20px;
+   border-radius: 50% 50% 0 0;
+   max-width: 100%;
+   text-align: center;
+
+}
+.flower-three{
+   background-color: #D9EFF1;
+   width: 464px;
+   height: 428px;
+   border-radius: 50% 50% 0 0;
+   max-width: 100%;
+   text-align: center;
+}
+
+.flower-parent{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
