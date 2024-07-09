@@ -29,8 +29,7 @@
    color: #585858;
    text-align: center;
    font-size: 18px;
-   
-   
+   padding-top: 32px;
 }
 
 
@@ -154,10 +153,74 @@ main{
    border-radius: 50% 50% 0 0;
    max-width: 100%;
    text-align: center;
+   margin-bottom: 128px;
 }
 
 .flower-parent{
    display: flex;
    flex-direction: row;
    justify-content: space-between;
+}
+
+/* support section */
+
+.support-parent{
+   background-color: #F4F4F4;
+   width: 1140px;
+   height: 320px;
+   display: flex;
+   justify-content: space-between;
+   text-align: center;
+   align-items: center;
+   margin-bottom: 128px;
+}
+
+.support-one{
+   margin-left: 100px;
+}
+
+.support-two{
+   margin-right: 100px;
+}
+
+.support-three{
+   margin-right: 100px;
+}
+
+.support-parent img{
+   margin-bottom: 20px;
+}
+
+
+/* signup sec */
+
+.signup{
+   width: ;
+   background-color: #FCEEF1 ;
+}
+
+.signup-description{
+      color: #585858;
+      text-align: center;
+      font-size: 18px;
+}
+
+.signup button{
+   
+   text-align: center;
+}
+
+.banner-img{
+   width: 300px;
+}
+
+.about-cointainer{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.btn{
+   margin-top: 32px;
+   margin-left: 170px;
 }
