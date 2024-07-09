@@ -190,37 +190,34 @@ main{
 .support-parent img{
    margin-bottom: 20px;
 }
-
-
 /* signup sec */
 
-.signup{
-   width: ;
-   background-color: #FCEEF1 ;
-}
-
-.signup-description{
-      color: #585858;
-      text-align: center;
-      font-size: 18px;
-}
-
-.signup button{
-   
-   text-align: center;
+.about-cointainer{   
+   background-color: #FEF6F8;   
+   padding: 20px;
 }
 
 .banner-img{
    width: 300px;
 }
 
-.about-cointainer{
+.signp_details{
    display: flex;
-   justify-content: space-around;
-   align-items: center;
+   flex-direction: row;  
+   justify-content: center;
 }
 
 .btn{
    margin-top: 32px;
    margin-left: 170px;
+}
+
+.section-title_two{
+   font-size: 2.4em;
+}
+
+.about-info{
+   padding-top: 5%;
+   margin-right: 5%;
+   margin-left: -60px;
 }
