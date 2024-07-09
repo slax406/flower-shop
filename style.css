@@ -3,6 +3,7 @@
 *{
    font-family: 'Lato' , sans-serif;
    font-family: 'Open Sans', sans-serif;
+   margin: 0;
 }
 
 .btn-primary {
@@ -12,16 +13,22 @@
    color: #fff;
    font-size: 18px;
    font-weight: 700;
-   padding: 15px 35px;
+   padding: 10px 30px;
 
 }
 
 
 /* nav style */
- nav{
+nav{
+   background-color: #d6c4c4;
+   border: 0;
+}
+
+.nav{
     display: flex;
     justify-content: space-between;
-    margin: 0 200px;
+    margin: 0 150px;
+
  }
 
  .nav-title{ 
@@ -30,7 +37,7 @@
    font-weight: 800;
  }
 
- nav > ul{
+ .nav > ul{
    display: flex;
    align-items: center;
  }
@@ -51,11 +58,35 @@ nav a{
 }
 
 .banner{
-   padding: 30px 30px 30px 150px;
+   /* margin: 30px 200px 3px 150px ; */
+   padding: 30px 150px 3px 150px;
    display: flex;
    align-items: center;
+   justify-content: space-between;
 }
-.banner .tulip{
+
+.banner-content{
+   max-width: 600px;
+}
+.banner .tulip{ 
    width: 635px;
    height: 800px;
 }
+
+.banner-title{
+   color: #272727;
+   font-size: 85px;
+   font-weight: 700;
+   margin-bottom: 32px;
+}
+
+.banner-description{
+   margin-bottom: 32px;
+   color: #585858;
+}
+
+
+
+/* main section */
+
+
